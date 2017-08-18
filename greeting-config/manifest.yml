@@ -1,0 +1,8 @@
+---
+applications:
+- name: greeting-config
+  memory: 512M
+  random-route: true
+  path: target/greeting-config-0.0.1-SNAPSHOT.jar
+  services:
+    - config-server

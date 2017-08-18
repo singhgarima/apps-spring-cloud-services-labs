@@ -1,3 +1,7 @@
 spring:
   application:
     name: greeting-config
+security:
+  user:
+    name: user
+    password: password
