@@ -5,8 +5,6 @@ applications:
   memory: 1G
   random-route: true
   path: target/fortune-service-0.0.1-SNAPSHOT.jar
-  env:
-    JAVA_OPTS: -XX:ReservedCodeCacheSize=10M -XX:MaxDirectMemorySize=10M
   services:
     - service-registry
     - config-server
