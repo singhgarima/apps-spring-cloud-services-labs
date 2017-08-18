@@ -1,0 +1,10 @@
+---
+applications:
+- name: greeting-service
+  instances: 1
+  memory: 1GB
+  random-route: true
+  path: target/greeting-service-0.0.1-SNAPSHOT.jar
+  services:
+    - config-server
+    - service-registry

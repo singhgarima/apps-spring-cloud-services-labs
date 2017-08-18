@@ -25,3 +25,24 @@ Note: Cloud Bus helps when you are running multiple Cloud Foundry instances and 
 ```
 cf set-env greeting-config SPRING_PROFILES_ACTIVE qa
 ```
+
+## fortune-service
+
+### Deploy to CF
+
+* Simple Deploy
+
+```
+cd fortune-service
+cf create-service p-service-registry standard service-registry
+cf push
+```
+
+## greeting-service
+
+* Simple Deploy
+
+```
+cd fortune-service
+cf push
+```
